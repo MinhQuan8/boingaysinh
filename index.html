@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BÓI NGÀY SINH</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./icon.png">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="group">
+  <br>
+  <h1>BÓI NGÀY SINH </h1> <br><br><br>
+  <form onsubmit="cac(event)">
+  <input type="number" class="btn" placeholder="Day" min="1" max="31" id="Day">
+  <input type="number" class="btn" placeholder="Month" min="1" max="12" id="Month">
+  <input type="number" class="btn" placeholder="Year" min="2000" max="2022" id="Year">
+  <input type="submit" class="btn" value="BÓI" id="ok"/>
+  </form>
+  <br><br>
+  <hr width="30%" align="center" color="#9ba2ac">
+  <div><h2  id="ans"></h2></div>
+  <div id="rs"></div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
