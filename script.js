@@ -14,6 +14,9 @@ document.getElementById("ans").innerHTML="KẾT QUẢ";
 } else if (Day==27 && Month==9 && Year==2008) {
 document.getElementById("rs").innerHTML="Hmmm... Mày sinh ngày 27 tháng 9, mày thì bản tính tuy hơi muchzay nhưng... không dừng lại ở đó mày còn rất muchzay cộng thêm chút thiểu năng, kết hợp với tí sống chóa và đặc biệt là NỨNG LỒNNNNNNN thì sẽ ra cái nết của mài!";
 document.getElementById("ans").innerHTML="KẾT QUẢ";
+} else if (Day==31 && Month==12 && Year==2016) {
+document.getElementById("rs").innerHTML="Hmmm... Mày sinh ngày 31 tháng 12, mày thì bản tính tuy hơi muchzay nhưng... không dừng lại ở đó mày còn rất muchzay cộng thêm chút thiểu năng (thật ra là một đống), kết hợp với tí sống chóa và đặc biệt là NGÁO ĐÁ, lấy nhòi nhét lại hết thì sẽ ra cái nết của mài!";
+document.getElementById("ans").innerHTML="KẾT QUẢ";
 } else {
 document.getElementById("rs").innerHTML="Hmmm... Ra cái nồn nhé đuỵt mọe mài teo biết mài nhập xàm loz nhập lại đê đũy!";
 document.getElementById("ans").innerHTML="";
