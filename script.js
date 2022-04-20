@@ -16,5 +16,6 @@ document.getElementById("rs").innerHTML="Hmmm... Mày sinh ngày 27 tháng 9, m�
 document.getElementById("ans").innerHTML="KẾT QUẢ";
 } else {
 document.getElementById("rs").innerHTML="Hmmm... Ra cái nồn nhé đuỵt mọe mài teo biết mài nhập xàm loz nhập lại đê đũy!";
+document.getElementById("ans").innerHTML="";
 }
 }
